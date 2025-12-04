@@ -52,8 +52,8 @@
     "@types/webpack-env": "^1.16.2"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "19.0.1",
+    "react-dom": "19.0.1",
     "single-spa-react": "^6.0.2",
     "single-spa": "^6.0.3"
   },
