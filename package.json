@@ -57,5 +57,6 @@
     "single-spa-react": "^6.0.2",
     "single-spa": "^6.0.3"
   },
-  "types": "dist/showcase-shared-libs.d.ts"
+  "types": "dist/showcase-shared-libs.d.ts",
+  "version": "0.0.1"
 }
