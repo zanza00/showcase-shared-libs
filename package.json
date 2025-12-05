@@ -1,6 +1,6 @@
 {
   "name": "@zanza00/shared-libs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/zanza00-shared-libs.js",
   "types": "dist/zanza00-shared-libs.d.ts",
   "files": [
