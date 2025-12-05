@@ -1,5 +1,11 @@
 {
   "name": "@showcase/shared-libs",
+  "version": "0.0.5",
+  "main": "dist/showcase-shared-libs.js",
+  "types": "dist/showcase-shared-libs.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
@@ -12,6 +18,7 @@
     "test": "cross-env BABEL_ENV=test jest",
     "watch-tests": "cross-env BABEL_ENV=test jest --watch",
     "prepare": "husky install",
+    "prepublishOnly": "npm run build",
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
     "build:types": "tsc"
   },
@@ -57,6 +64,4 @@
     "single-spa-react": "^6.0.2",
     "single-spa": "^6.0.3"
   },
-  "types": "dist/showcase-shared-libs.d.ts",
-  "version": "0.0.5"
 }
