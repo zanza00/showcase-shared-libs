@@ -1,6 +1,9 @@
 {
   "name": "@zanza00/shared-libs",
   "version": "0.0.8",
+  "repository": {
+    "url": "https://github.com/zanza00/showcase-shared-libs"
+  },
   "main": "dist/zanza00-shared-libs.js",
   "types": "dist/zanza00-shared-libs.d.ts",
   "files": [
